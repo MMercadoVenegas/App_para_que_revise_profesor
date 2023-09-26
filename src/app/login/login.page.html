@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-img
+    src="https://www.bienestararmada.cl/prontus_bienestar/site/artic/20120124/imag/foto_0120120124103713.jpg">
+  </ion-img>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+
+  <div class="background-content">
+
+    <ion-item>
+      <ion-label id="titulo_inic_sesion">Inicio de sesión</ion-label>
+    </ion-item>
+    
+    
+
+    
+    <ion-item>
+      <ion-input [(ngModel)]="username" type="text" label="Usuario" label-placement="floating" fill="solid" placeholder="Nombre de usuario o correo electrónico"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input [(ngModel)]="password" type="password" label="Contraseña" label-placement="floating" fill="solid" placeholder="***********"></ion-input>
+    </ion-item>
+
+
+    <ion-button expand="full" (click)="login()">Ingresar</ion-button>
+    <ion-button expand="full" (click)="irAReestablecerContrasena()">Restablecer Contraseña</ion-button>
+  </div>
+
+</ion-content>

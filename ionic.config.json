@@ -1,0 +1,7 @@
+{
+  "name": "Proyecto_Semestral",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

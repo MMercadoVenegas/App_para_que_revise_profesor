@@ -1,0 +1,41 @@
+.login-form {
+  text-align: center; /* Centrar el contenido horizontalmente */
+  padding: 20px; /* Espacio alrededor del contenido */
+}
+
+ion-input {
+    font-size: 16px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espacio entre etiquetas */
+    margin: auto;
+  }
+
+  ion-button {
+    width: 100%; /* Ancho completo */
+    max-width: 300px; /* Ancho máximo (ajústalo según tus necesidades) */
+    margin-top: 10px; /* Espacio superior */
+    font-size: 18px; /* Tamaño de fuente de los botones */
+    margin: auto;
+  }
+  #titulo_inic_sesion{
+    text-align: center;
+  }
+
+
+
+  animated-input {
+    transform: scale(0.8); /* Inicialmente, escala los elementos a un 80% de su tamaño */
+    opacity: 0; /* Inicialmente, los elementos están ocultos */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Agrega una transición suave */
+  }
+  
+  /* Estilos para la animación cuando los elementos están enfocados */
+  animated-input:focus-within {
+    transform: scale(1); /* Al enfocar, restaura el tamaño original */
+    opacity: 1; /* Al enfocar, muestra los elementos con opacidad completa */
+  }
+ 
+  
+  
+  
+  
+  
